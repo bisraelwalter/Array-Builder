@@ -1,7 +1,1 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ArrayTest (DESKTOP-MJID6FN's conflicted copy 2017-07-01).vcxproj, ArrayTest (DESKTOP-MJID6FN's conflicted copy 2017-07-05).vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  ArrayTest.cpp
-c:\users\bisraelwalter\dropbox\homework\cst211 - data structures\week 1\project stuff\array\array\array2d.h(38): warning C4522: 'Array2D<int>': multiple assignment operators specified
-  c:\users\bisraelwalter\dropbox\homework\cst211 - data structures\week 1\project stuff\array\arraytest\arraytest.cpp(73): note: see reference to class template instantiation 'Array2D<int>' being compiled
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Array (DESKTOP-MJID6FN's conflicted copy 2017-07-01).vcxproj, Array (DESKTOP-MJID6FN's conflicted copy 2017-07-05).vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  ArrayTest.vcxproj -> C:\Users\Bisraelwalter\Dropbox\Homework\CST211 - Data Structures\Week 1\Project Stuff\Array\Debug\ArrayTest.exe
-  ArrayTest.vcxproj -> C:\Users\Bisraelwalter\Dropbox\Homework\CST211 - Data Structures\Week 1\Project Stuff\Array\Debug\ArrayTest.pdb (Partial PDB)
+﻿

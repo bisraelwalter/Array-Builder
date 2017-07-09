@@ -1,9 +1,9 @@
+//****Brandon Walter*****
 #pragma once
 #ifndef ARRAY2D_H
 #define ARRAY2D_H
 #include "Array.h"
 #include "Row.h"
-#include <string>
 
 #endif
 

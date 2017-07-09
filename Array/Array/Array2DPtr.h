@@ -1,7 +1,7 @@
+//****Brandon Walter*****
 #pragma once
 #ifndef ARRAY2DPTR_H
 #define ARRAY2DPTR_H
-#include <iostream>
 
 
 #endif
@@ -35,7 +35,6 @@ public:
 template<class T>
 inline Array2DPtr<T>::Array2DPtr()
 {
-	cout << "Constructor called" << endl;
 	this->m_row = 0;
 	this->m_col = 0;
 	m_array = new T*[this->m_row];
@@ -46,7 +45,6 @@ inline Array2DPtr<T>::Array2DPtr()
 template<class T>
 inline Array2DPtr<T>::Array2DPtr(int row, int col)
 {
-	cout << "Parameter Constructor called " << endl;
 	this->m_row = row;
 	this->m_col = col;
 	m_array = new T*[row];
@@ -75,7 +73,6 @@ inline Array2DPtr<T>::Array2DPtr(const Array2DPtr & copy)
 template<class T>
 inline Array2DPtr<T>::~Array2DPtr()
 {
-	cout << "Deconstructor called" << endl;
 	for (int i = 0; i < this->m_row; i++)
 		delete[] m_array[i];
 

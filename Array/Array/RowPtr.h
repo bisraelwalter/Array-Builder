@@ -1,3 +1,4 @@
+//****Brandon Walter*****
 #ifndef ROWPTR_H
 #define ROWPTR_H
 #include "Exception.h"
